@@ -1,5 +1,13 @@
 # 🧠 Epics & User Stories for **Places**
 
+## 👤 Identitas
+>- **Nama:** Andreandhiki Riyanta Putra
+>- **NIM:** 23/517511/PA/22191
+>- **Kelas:** WRPL KOM A
+>- **Dosen Pengampu:** Guntur Budi Herwanto, S.Kom., M.Cs.
+
+---
+
 ## 🌍 Initiative: Places – Interactive Maps for Exploring UGM
 > **Description:**  
 > **Places** is an interactive map platform designed to help UGM students explore the campus and surrounding areas. Users can discover, bookmark, and check the status of key locations such as study spots, discussion rooms, food places, and more — whether for personal use or public sharing.
@@ -23,6 +31,17 @@
 - Allow anonymous comments or place suggestions (with content filtering).
 
 ---
+
+## 🛠️ Tech Stack
+
+| Frontend               | Backend                | Other                        |
+|-------------------------|-------------------------|-------------------------------|
+| Next.js / React         | Node.js / Express        | Mapbox (3D maps)              |
+| Tailwind CSS            | REST API                | Google Maps Redirect          |
+| Zustand or Context API  | MongoDB / PostgreSQL    | Bad-words filtering for comments |
+
+---
+
 
 # 🚩 Epic 1 – Display Available Spots on the Map
 *Focus: Show pre-defined spots on an interactive map, complete with key information.*
